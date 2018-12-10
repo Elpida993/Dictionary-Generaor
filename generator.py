@@ -1,8 +1,7 @@
 import time
 
 length=int(raw_input("Enter the maximum of characters: "))
-name='wl.txt'    #raw_input("Enter destination file name with extension (.txt): ")
-
+name='wl.txt'    
 tic = time.clock()
 print ("Running")
 lista=[0 for x in xrange(length)]
